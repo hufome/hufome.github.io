@@ -3,7 +3,7 @@ body{
 }
 @font-face { font-family: Grandstander; src: url('fonts/Grandstander-Medium.ttf'); } 
 #logo {
-	color: #C8963E;
+	color: #F25F5C;
 	font-size: 18px;
 	font-family: Grandstander
 	
@@ -70,7 +70,3 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-//banner color #001B2E
-//active color #B7CECE
-//#6E7E85;
-//
