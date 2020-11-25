@@ -1,0 +1,46 @@
+@font-face {font-family: Grandstander; src: url('fonts/Grandstander-Medium.ttf');}
+body {
+	background: #e5e5e5;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+	font-family: Grandstander;
+	float: center;
+	font-size: 2em;
+	display: block;
+	color: #92DCE5;
+	text-align: center;
+	text-decoration: none;
+}
+.header {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #f4f3ee;
+}
+/* unvisited link */
+.logo a:link {
+	text-decoration: none;
+	color: #92DCE5;
+}
+
+/* visited link */
+.logo a:visited {
+	text-decoration: none;
+	color: #92DCE5;
+}
+
+/* mouse over link */
+.logo a:hover {
+	text-decoration: none;
+	color: #92DCE5;
+}
+
+/* selected link */
+.logo a:active {
+	text-decoration: none;
+	color: #92DCE5;
+}
