@@ -15,11 +15,25 @@ body {
 	text-decoration: none;
 }
 .header {
+	z-index:1000;
 	overflow: hidden;
-	position: fixed;
+	position: sticky;
 	top: 0;
 	width: 100%;
 	background-color: #f4f3ee;
+}
+.title {
+	float: center;
+	font-size: 2em;
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	
+	width: 100%;
+	position: sticky;
+	background-color: #eeeff4;
+}
+.group {
 }
 /* unvisited link */
 .logo a:link {
