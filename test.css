@@ -8,4 +8,24 @@ body {
 	margin-left: -10%;
 	position: absolute;
 	top: 50%;
+	z-index: 10000;
+}
+
+.icon {
+	position: absolute;
+	width: 300%;
+	position: relative;
+}
+.box {
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  /* -1/2 width */
+  margin-top: -10px;
+  /* -1/2 height */
+  opacity: 0;
 }
