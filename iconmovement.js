@@ -1,3 +1,4 @@
+document.getElementById( 'bulb' ).scrollIntoView();
 var icons = ["youtube", "codame", "insta", "twitter", "github"];
 move(true);
 function move(lor){

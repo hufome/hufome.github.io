@@ -11,21 +11,20 @@ body, html {
   margin: 0;
   font-family: Arial;
 }
+#logo { 
+	width: 20%;
+	left: 50%;
+	margin-left: -10%;
+	position: relative;
+	z-index: 10000000;
+}
 #bulb {
 	position: absolute;
 	left:0;
 	top: 2.5%;
 	width: 2.5%;
 }
-#logo { 
-	width: 20%;
-	left: 50%;
-	margin-top: -10%;
-	margin-left: -10%;
-	position: absolute;
-	top: 10%;
-	z-index: 10000;
-}
+
 .center {
 	left: 0;
     line-height: 200px;
