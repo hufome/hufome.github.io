@@ -2,6 +2,9 @@ body {
 	background: #f4f3ee;
 }
 /*DARK MODE: #1d2333 */
+.darkmode{
+	background: #1d2333;
+}
 html { overflow-x: hidden; }
 body, html {
   height: 100%;
@@ -11,7 +14,8 @@ body, html {
 #bulb {
 	position: absolute;
 	left:0;
-	top:0;
+	top: 2.5%;
+	width: 2.5%;
 }
 #logo { 
 	width: 20%;

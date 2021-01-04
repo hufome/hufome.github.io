@@ -23,3 +23,18 @@ function updateIcons(){
 		document.getElementById(icons[num]).className = "icon" + (num + 1);
 	}
 }
+
+function toggleDark() {
+	var element = document.body;
+	element.classList.toggle("darkmode");
+	toggleBulb();
+}
+
+function toggleBulb() {
+  var image = document.getElementById('bulb');
+  if (image.src.match("bulbon")) {
+    image.src = "images/bulboff.png";
+  } else {
+    image.src = "images/bulbon.png";
+  }
+}
