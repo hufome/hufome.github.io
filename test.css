@@ -114,3 +114,44 @@ button {
 	margin-top: -.5%;
 	margin-left: -.5%;
 }
+
+#videos {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 3em;
+	width: calc(100% / 4);
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+
+#events {
+	position: fixed;
+	left: calc(100% / 4);
+	bottom: 0;
+	width: calc(100% / 4);
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+
+#minecraft {
+	position: fixed;
+	left: calc(100% / 2);
+	bottom: 0;
+	width: calc(100% / 4);
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+
+#other {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: calc(100% / 4);
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
