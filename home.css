@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+	background: #f4f3ee;
+	margin: 0;
+}
+.darkmode{
+	background: #1d2333;
+}
+html { overflow-x: hidden; } 
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+#logo { 
+	width: 20%;
+	left: 50%;
+	margin-left: -10%;
+    top: 50%;
+    margin-top: -10%;
+	position: relative;
+	z-index: 10000000;
+}
+#row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 4px;
+}
+  
+.column img {
+    margin-top: 0px;
+}
+  
+/* Clear floats after the columns */
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
