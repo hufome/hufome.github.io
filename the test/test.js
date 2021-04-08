@@ -21,5 +21,5 @@ function submit(time){
     alert(document.cookie);
     jsarray = [d, ctrl, finishTime];
     //sessionStorage.setItem("jsArray", JSON.stringify(jsarray));
-    sessionStorage.setItem("jsArray", "test");
+    sessionStorage.setItem("jsArray", "test ");
 }
