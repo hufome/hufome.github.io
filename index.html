@@ -1,38 +1,26 @@
-<!doctype HTML>
-<head>
-	<title>hufo</title>
-	<link rel="stylesheet" href="test.css">
-</head>
-<body>
-	<div>
-		
-		<img src="images/hufoLogoCropped.png" id="logo">	
-	</div>
-	<button onclick="toggleDark()"><img src="images/bulbon.png" id="bulb"></button>
-	
-	
-	<div style="height: 50%;" id="icons">
-		<a href="https://twitter.com/hufo_me"><img src="images/icons/twitter.png" class="icon1" id="twitter"></a>
-		<a href="https://www.instagram.com/hufo.me/"><img src="images/icons/insta.png" class="icon2" id="insta"></a>
-		<a href="https://www.youtube.com/channel/UCelEbpqJtQcsRNajtN2KkVg"><img src="images/icons/youtube.png" class="icon3" id="youtube"></a>
-		<a href="https://codame.com/artists/hufo"><img src="images/icons/codame.png" class="icon4" id="codame"></a>
-		<a href="https://github.com/hufome"><img src="images/icons/github.svg" class="icon5" id="github"></a>
-		<button onclick="move(false)"><img src="images/arrow.png" id="arrow1"></button>
-		<button onclick="move(true)"><img src="images/arrow.png" id="arrow2"></button>
-	</div>
-	
-	<div id="videos">
-		<p>Videos</p>
-	</div>
-	<div id="events">
-		<p>Events</p>
-	</div>
-	<div id="minecraft">
-		<p>Minecraft</p>
-	</div>
-	<div id="other">
-		<p>Other</p>
-	</div>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="iconmovement.js"></script>
-</body>
+<!doctype html>
+<html>
+    <head>
+        <title>hufo</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="icon" href="images/hufoH.png">
+    </head>
+    <body>
+        <div id="top" style="width: 100%; height: 30%;">
+            <img src="images/hufoLogoCropped.png" id="logo">
+        </div>
+        <div id="bottom" style="width: 100%; height: 50%;">
+            <div id="row">
+                <!-- pages-->
+                <div class="column">
+                    <object type="text/html" data="social.html"  style="width:100%; height: 100%;"></object>
+                </div>
+                <div class="column">
+                    <a href="http://codame.com/events/build-an-art-gallery-in-minecraft">
+                        <img src="http://codame.com/uploaded_images/build-an-art-gallery-in-minecraft.png" style="width:100%">
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>
