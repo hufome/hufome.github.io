@@ -1,0 +1,9 @@
+.step { 
+	text-align: center;
+	position: relative;
+	z-index: 10000000;
+    top: 10;
+    font-size: 4vw;
+    white-space: nowrap;
+    color: #5d5d5d;
+}
